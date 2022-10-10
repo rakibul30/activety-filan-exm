@@ -1,0 +1,142 @@
+ /*!
+ * Template Name/Project Name: XYZ
+ * Developer Name: rakib all
+ * Conatct: rakiball@gmail.com
+ * Visit: https://rakiball.info
+ */ 
+ /* common file start */
+ :root{
+    --brand-color: #3ECEA0;
+    --standard-color: #0A8EA0;
+    --white-color: white;
+ }
+ /* common file end*/
+ header{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) ,url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ /* navbar start */
+ .navbar .nav-link{
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 400;
+ }
+ .navbar .navbar-brand{
+    color: var(--white-color);
+    font-weight: 700;
+ }
+ .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--brand-color);
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.navbar-brand .fa-rebel{
+    color: var(--brand-color);
+    font-size: 30px;
+}
+.nav-link:focus, .nav-link:hover{
+    color: var(--brand-color);
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: var(--brand-color);
+}
+ /* navbar end */
+ /* banner-section start */
+ .banner-area{
+   padding: 120px 0px 120px 0px;
+ }
+ .banner-area{
+    color: var(--white-color);
+ }
+ .banner-area h1{
+    color: var(--brand-color);
+    font-weight: 700;
+ }
+ .banner-area .btn-outline-ifo{
+   border: 2px solid white;
+   color: white;
+ }
+ .banner-area .btn-outline-ifo:hover{
+   background-color: var(--brand-color);
+ }
+ /* banner-section end*/
+ /* about-section start */
+ .about-us .container .about-content{
+   padding: 70px 0px 50px 0px;
+ }
+ .about-content h2{
+   position: relative;
+   letter-spacing: 2px;
+   color: var(--standard-color);
+ }
+ .about-content h2::after{
+   position: absolute;
+   content: "";
+   width: 10%;
+   height: 3px;
+   bottom: -7px;
+   left: 45%;
+   background-color: var(--standard-color);
+ }
+ .main-section-aside .pharagraph{
+   font-size: 22px;
+   line-height: 1.5;
+ }
+ .main-section-aside .text-justify{
+  text-align: justify;
+  line-height: 2;
+  color: #666;
+  margin-bottom: 2rem;
+ }
+ .main-section-aside a{
+  color: white;
+  background-color: var(--standard-color);
+ }
+ .main-section-aside .btn-info:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+ /* about-section end */
+/* big-footer start */
+.footer-area{
+  margin-top: 100px;
+}
+.container-fluid{
+  background-color: var(--standard-color);
+  color: var(--white-color);
+}
+.fotter-area-button a.active{
+  color: var(--standard-color);
+  background-color: var(--white-color);
+  border-color: #fff;
+}
+.fotter-area-button a.abc{
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+.fotter-area-button a.active:hover{
+  color: var(--white-color);
+  background-color: black;
+}
+.fotter-area-button a.abc:hover{
+  color: black;
+  background-color: var(--white-color);
+}
+/* big-footer end */
+/* fotter start */
+footer{
+  background-color: black;
+}
+.list-inline i:hover{
+  color: var(--brand-color);
+}
+.list-inline i{
+  color: var(--white-color);
+}
+/* fotter end */
+
+ 

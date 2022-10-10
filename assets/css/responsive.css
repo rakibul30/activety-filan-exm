@@ -1,0 +1,30 @@
+@media (min-width: 0px) and (max-width: 575px){
+    /* header start */
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+    /* banner-section start */
+    .banner-area{
+        padding: 60px 0px 40px 0px;
+      }
+    /* banner-section end */
+    /* header end */
+    /* about-section start */
+    .main-section-aside a{
+        margin-bottom: 1rem;
+       }
+    /* about-section end*/
+
+}
+@media (min-width: 575px) and (max-width: 767px){
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+     .main-section-aside a{
+        margin-bottom: 1rem;
+       }
+}
